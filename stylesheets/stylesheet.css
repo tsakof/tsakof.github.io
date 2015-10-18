@@ -461,6 +461,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    margin-bottom: 0;
     color: #ffffff;
     text-decoration:none;
 }
