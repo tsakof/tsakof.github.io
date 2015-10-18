@@ -450,7 +450,7 @@ nav a { color: #ffffff;
     text-decoration:none;}
     
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Architects Daughter', 'Helvetica Neue',  Helvetica, Arial, serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
