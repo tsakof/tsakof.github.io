@@ -447,7 +447,9 @@ a:hover {
   color: #2268b2;
 }
 nav a { color: #ffffff;
-    text-decoration:none;}
+    text-decoration:none;
+    margin-bottom: 20;
+}
     
 nav ul, footer ul {
     font-family:'Architects Daughter', 'Helvetica Neue',  Helvetica, Arial, serif;
@@ -455,13 +457,13 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     font-size: 1.5em;
-    margin-bottom: -40;
+    margin-bottom: 20;
     
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    margin-bottom: -40;
+    margin-bottom: 20;
     color: #ffffff;
     text-decoration:none;
 }
