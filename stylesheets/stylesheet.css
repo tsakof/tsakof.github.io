@@ -439,6 +439,13 @@ body {
 p {
   margin-top: 0;
 }
+
+a {
+  color: #2879d0;
+}
+a:hover {
+  color: #2268b2;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -451,12 +458,6 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
     color: #ffffff;
-}
-a {
-  color: #2879d0;
-}
-a:hover {
-  color: #2268b2;
 }
 
 header {
