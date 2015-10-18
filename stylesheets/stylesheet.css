@@ -446,6 +446,9 @@ a {
 a:hover {
   color: #2268b2;
 }
+nav a { color: #ffffff;
+    text-decoration:none;}
+    
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
