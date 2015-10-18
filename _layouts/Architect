@@ -13,7 +13,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>Tsakof.GitHub.io by tsakof</title>
+    <title>{{ title }}</title>
   </head>
 
   <body>
