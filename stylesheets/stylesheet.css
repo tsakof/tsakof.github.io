@@ -448,7 +448,7 @@ a:hover {
 }
 nav a { color: #ffffff;
     text-decoration:none;
-    padding-bottom: 40px;
+    border: 40px;
 }
     
 nav ul, footer ul {
@@ -457,13 +457,13 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     font-size: 1.5em;
-    padding-bottom: 40px;
+    border: 40px;
     
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    padding-bottom: 40px;
+    border: 40px;
     color: #ffffff;
     text-decoration:none;
 }
