@@ -450,6 +450,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    color: #ffffff;
 }
 a {
   color: #2879d0;
@@ -473,7 +474,7 @@ header h1 {
   font-size: 72px;
   font-weight: normal;
   line-height: 1;
-  color: #ffffff;
+  color: #fff;
   letter-spacing: -1px;
 }
 
