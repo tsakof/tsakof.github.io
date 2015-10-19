@@ -1,4 +1,4 @@
-<b> Fotis Page (tsakof.github.io) Version 1.0 20/10/2015 </b>
+<b><size= 1.5em> Fotis Page (tsakof.github.io) Version 1.0 20/10/2015 </b>
 
 Γενική περιγραφή Ιστοσελίδας
 -----------------------------------
