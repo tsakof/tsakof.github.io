@@ -33,27 +33,22 @@
 <p><textarea disabled>	</nav> </textarea></p>
 
 Ενώ για να διαμορφωθεί το συγκεκριμένο μενού και να γίνει ομοιόμορφο με το υπόλοιπο site στο αρχείο stylesheets/stylesheet.css εισήχθησαν οι παρακάτω γραμμές κώδικα:
-nav a { color: #ffffff;
-    text-decoration:none;
+<p>nav a { color: #ffffff;</p>
+  <p>  text-decoration:none;}</p>
     
-}
-    
-nav ul, footer ul {
-    font-family:'Architects Daughter', 'Helvetica Neue',  Helvetica, Arial, serif;
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    color: #ffffff;
-    text-decoration:none;
-}
+<p>nav ul, footer ul {</p>
+ <p>   font-family:'Architects Daughter', 'Helvetica Neue',  Helvetica, Arial, serif;</p>
+   <p> padding: 0px;</p>
+  <p>  list-style: none;</p>
+  <p>  font-weight: bold;</p>
+  <p>  font-size: 1.5em;</p>
+  <p>  margin-bottom: 20px;}</p>
+<p>nav ul li, footer ul li {</p>
+ <p>   display: inline;</p>
+ <p>   margin-right: 20px;</p>
+ <p>   margin-bottom: 20px;</p>
+    <p>color: #ffffff;</p>
+   <p> text-decoration:none}</p>
 
 
 
