@@ -51,7 +51,7 @@
  <br>  margin-right: 20px;</br>
 <br>  margin-bottom: 20px;</br>
     <br>color: #ffffff;</br>
-   <br> text-decoration:none}</br>
+  text-decoration:none}
    
 Χρησιμοποιώντας το jekyll
 ---------------------------------------------------------
