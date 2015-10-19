@@ -22,14 +22,14 @@ Fotis Page (tsakof.github.io) Version 1.0 20/10/2015
 Έτσι για τη δημιουργία επιπλέον σελίδων δημιουργήθηκαν 3 επιπλέον φάκελοι: About, CV, Blog που ο καθένας περιελάμβανε κι ένα index.html αρχείο.
 Για να είναι δυνατή η πρόσβαση σ' αυτές τις σελίδες μέσα απ' την αρχική σελίδα του site ήταν απαραίτητο να δημιουργηθούν κάποια links που θα παρέπεμπαν σ' αυτές .
 Έτσι φτιάχτηκαν 4 nav buttons στη κεφαλίδα της αρχικής σελίδας του site: home, about, cv, blog, εισάγοντας στο κώδικα του tsakof.github.io/index.html τις εξεις γραμμές:
-               <!  <nav>
+                 \\ <nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
 	        		<li><a href="/CV">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
-		</nav> >
+		</nav> \\
 
 
 
