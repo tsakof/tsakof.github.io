@@ -22,7 +22,7 @@
 Το συγκεκριμένο layout όμως περιελάμβανε μόνο μία σελίδα περιορίζοντας τις δυνατότητες του site.
 Έτσι για τη δημιουργία επιπλέον σελίδων δημιουργήθηκαν 3 επιπλέον φάκελοι: About, CV, Blog που ο καθένας περιελάμβανε κι ένα index.html αρχείο.
 Για να είναι δυνατή η πρόσβαση σ' αυτές τις σελίδες μέσα απ' την αρχική σελίδα του site ήταν απαραίτητο να δημιουργηθούν κάποια links που θα παρέπεμπαν σ' αυτές .
-Έτσι φτιάχτηκαν 4 nav buttons στη κεφαλίδα της αρχικής σελίδας του site: home, about, cv, blog, εισάγοντας στο header του tsakof.github.io/index.html τις εξής γραμμές:
+Έτσι φτιάχτηκαν 4 nav buttons στη κεφαλίδα της αρχικής σελίδας του site: home, about, cv, blog, εισάγοντας στο header του tsakof.github.io/index.html τις εξής γραμμές (25 έως 32):
        <p> <textarea disabled> <nav> </textarea> </p>
 <p>	<textarea disabled>  <ul> </textarea></p>
  <p>  <textarea disabled> 		<li><a href="/">Home</a></li> </textarea></p>
