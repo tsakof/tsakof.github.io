@@ -24,13 +24,13 @@
 Για να είναι δυνατή η πρόσβαση σ' αυτές τις σελίδες μέσα απ' την αρχική σελίδα του site ήταν απαραίτητο να δημιουργηθούν κάποια links που θα παρέπεμπαν σ' αυτές .
 Έτσι φτιάχτηκαν 4 nav buttons στη κεφαλίδα της αρχικής σελίδας του site: home, about, cv, blog, εισάγοντας στο κώδικα του tsakof.github.io/index.html τις εξής γραμμές:
        <textarea disabled> <nav> </textarea>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-	        	        <li><a href="/about">About</a></li>
-	        		<li><a href="/CV">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-	</nav> </textarea>
+	<textarea disabled>  <ul> </textarea>
+   <textarea disabled> 		<li><a href="/">Home</a></li> </textarea>
+   <textarea disabled>	        <li><a href="/about">About</a></li> </textarea>
+   <textarea disabled>	       	<li><a href="/CV">CV</a></li> </textarea>
+   <textarea disabled>	        <li><a href="/blog">Blog</a></li> </textarea>
+<textarea disabled>	    </ul> </textarea> 
+<textarea disabled>	</nav> </textarea>
 
 
 
