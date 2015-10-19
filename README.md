@@ -63,8 +63,7 @@ nav ul li, footer ul li {
 
 Layout: Architect
 <br>title: about</br>
-
----
+<br>---</br>
 Έτσι ο βασικός κώδικας αναπαράγεται αυτόματα ενώ το περιεχόμενο που τοποθετούμε σε κάθε σελίδα αντικαθιστά τα liquid taqs του Layout Architect.
 
 
