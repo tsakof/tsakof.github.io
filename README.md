@@ -32,7 +32,7 @@
 <p><textarea disabled>	    </ul> </textarea> </p>
 <p><textarea disabled>	</nav> </textarea></p>
 
-Ενώ για να διαμορφωθεί το συγκεκριμένο μενού και να γίνει ομοιόμορφο με το υπόλοιπο site στο αρχείο stylesheets/stylesheet.css εισήχθησαν οι παρακάτω γραμμές κώδικα:
+Ενώ για να διαμορφωθεί το συγκεκριμένο μενού και να γίνει ομοιόμορφο με το υπόλοιπο site στο αρχείο stylesheets/stylesheet.css εισήχθησαν οι παρακάτω γραμμές κώδικα (γραμμή 449 έως 469):
 <p>nav a { color: #ffffff;</p>
   <p>  text-decoration:none;}</p>
     
