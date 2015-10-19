@@ -16,9 +16,15 @@ Fotis Page (tsakof.github.io) Version 1.0 20/10/2015
 
 Η ιστοσελίδα αυτή κατασκευάστηκε χρησιμοποιόντας τον automatic page generator του GitHub. 
 Αφού πρώτα δημιουργήθηκε το κατάλληλο repository στο account του GitHub με το κατάλληλο όνομα (tsakof.github.io),
-στη συνέχεια μέσα απ' τις επιλογές settings/automatic page generator ξεκίνησε η διαδικασία δημιουργίας του site βάση του 
-έτοιμου GitHub Layout "Architect".
-Ο page generator δημιούργησε στο tsakof.github.io repository τα απαραίτητα html,css
+στη συνέχεια μέσα απ' τις επιλογές settings/automatic page generator ξεκίνησε η διαδικασία δημιουργίας του site βάση του έτοιμου GitHub Layout "Architect".
+Ο page generator παρήγαγε αυτόματα στο tsakof.github.io repository τα απαραίτητα html,css και Javascript αρχεία και φακέλους ούτως ώστε να δημιουργηθεί και να είναι λειτουργική μια αρχική μορφή της ιστοσελίδας.
+Το συγκεκριμένο layout όμως περιελάμβανε μόνο μία σελίδα περιορίζοντας τις δυνατότητες του site.
+Έτσι για τη δημιουργία επιπλέον σελίδων δημιουργήθηκαν 3 επιπλέον φάκελοι: About, CV, Blog που ο καθένας περιελάμβανε κι ένα index.html αρχείο.
+Για να είναι δυνατή η πρόσβαση σ' αυτές τις σελίδες μέσα απ' την αρχική σελίδα του site ήταν απαραίτητο να δημιουργηθούν κάποια links που θα παρέπεμπαν σ' αυτές .
+Έτσι φτιάχτηκαν 4 nav buttons στη κεφαλίδα της αρχικής σελίδας του site: home, about, cv, blog, εισάγοντας στο κώδικα του tsakof.github.io/index.html τις εξεις γραμμές:
+
+
+
 
 
 
