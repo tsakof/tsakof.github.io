@@ -38,20 +38,20 @@
 
 Ενώ για να διαμορφωθεί το συγκεκριμένο μενού και να γίνει ομοιόμορφο με το υπόλοιπο site στο αρχείο stylesheets/stylesheet.css εισήχθησαν οι παρακάτω γραμμές κώδικα (γραμμή 449 έως 469):
     <br> nav a { color: #ffffff;</br>
-  <br> text-decoration:none;}</br>
-        nav ul, footer ul {
- <br>   font-family:'Architects Daughter', 'Helvetica Neue',  Helvetica, Arial, serif;</br>
-        padding: 0px;
-  <br> list-style: none;</br>
-         font-weight: bold;
-  <br>  font-size: 1.5em;</br>
-         margin-bottom: 20px;}
-<br>nav ul li, footer ul li {</br>
-        display: inline;
- <br>  margin-right: 20px;</br>
-      margin-bottom: 20px;
-    <br>color: #ffffff;</br>
-  text-decoration:none}
+   text-decoration:none;}
+        <br> nav ul, footer ul {</br>
+   font-family:'Architects Daughter', 'Helvetica Neue',  Helvetica, Arial, serif;
+       <br>  padding: 0px;</br>
+  list-style: none;
+       <br>   font-weight: bold;</br>
+   font-size: 1.5em;
+       <br>  margin-bottom: 20px;}</br>
+nav ul li, footer ul li {
+       <br> display: inline;</br>
+   margin-right: 20px;
+    <br>  margin-bottom: 20px;</br>
+    color: #ffffff;
+ <br> text-decoration:none}</br>
    
 Χρησιμοποιώντας το jekyll
 ---------------------------------------------------------
