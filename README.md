@@ -28,16 +28,16 @@
 Για να είναι δυνατή η πρόσβαση σ' αυτές τις σελίδες μέσα απ' την αρχική σελίδα του site ήταν απαραίτητο να δημιουργηθούν κάποια links που θα παρέπεμπαν σ' αυτές .
 Έτσι φτιάχτηκαν 4 nav buttons στη κεφαλίδα της αρχικής σελίδας του site: home, about, cv, blog, εισάγοντας στο header του tsakof.github.io/index.html τις εξής γραμμές (25 έως 32):
        <br> <textarea disabled> <nav> </textarea> </br>
-<br>	<textarea disabled>  <ul> </textarea></br>
+	<textarea disabled>  <ul> </textarea>
  <br>  <textarea disabled>   <li><a href="/">Home</a></li> </textarea></br>
- <br>  <textarea disabled>	 <li><a href="/about">About</a></li> </textarea></br>
+  <textarea disabled>	 <li><a href="/about">About</a></li> </textarea>
 <br>  <textarea disabled>	 <li><a href="/CV">CV</a></li> </textarea></br>
- <br>  <textarea disabled>	 <li><a href="/blog">Blog</a></li> </textarea></br>
+   <textarea disabled>	 <li><a href="/blog">Blog</a></li> </textarea>
 <br><textarea disabled>	</ul> </textarea> </br>
-<br><textarea disabled>	</nav> </textarea></br>
+<textarea disabled>	</nav> </textarea>
 
 Ενώ για να διαμορφωθεί το συγκεκριμένο μενού και να γίνει ομοιόμορφο με το υπόλοιπο site στο αρχείο stylesheets/stylesheet.css εισήχθησαν οι παρακάτω γραμμές κώδικα (γραμμή 449 έως 469):
-     nav a { color: #ffffff;
+    <br> nav a { color: #ffffff;</br>
   <br> text-decoration:none;}</br>
         nav ul, footer ul {
  <br>   font-family:'Architects Daughter', 'Helvetica Neue',  Helvetica, Arial, serif;</br>
