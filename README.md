@@ -24,32 +24,32 @@
 Έτσι για τη δημιουργία επιπλέον σελίδων δημιουργήθηκαν 3 επιπλέον φάκελοι: About, CV, Blog που ο καθένας περιελάμβανε κι ένα index.html αρχείο.</p>
 Για να είναι δυνατή η πρόσβαση σ' αυτές τις σελίδες μέσα απ' την αρχική σελίδα του site ήταν απαραίτητο να δημιουργηθούν κάποια links που θα παρέπεμπαν σ' αυτές .
 Έτσι φτιάχτηκαν 4 nav buttons στη κεφαλίδα της αρχικής σελίδας του site: home, about, cv, blog, εισάγοντας στο header του tsakof.github.io/index.html τις εξής γραμμές (25 έως 32):
-       <p> <textarea disabled> <nav> </textarea> </p>
-<p>	<textarea disabled>  <ul> </textarea></p>
- <p>  <textarea disabled> 		<li><a href="/">Home</a></li> </textarea></p>
- <p>  <textarea disabled>	        <li><a href="/about">About</a></li> </textarea></p>
- <p>  <textarea disabled>	       	<li><a href="/CV">CV</a></li> </textarea></p>
- <p>  <textarea disabled>	        <li><a href="/blog">Blog</a></li> </textarea></p>
-<p><textarea disabled>	    </ul> </textarea> </p>
-<p><textarea disabled>	</nav> </textarea></p>
+       <br> <textarea disabled> <nav> </textarea> </br>
+<br>	<textarea disabled>  <ul> </textarea></br>
+ <br>  <textarea disabled> 		<li><a href="/">Home</a></li> </textarea></br>
+ <br>  <textarea disabled>	        <li><a href="/about">About</a></li> </textarea></br>
+<br>  <textarea disabled>	       	<li><a href="/CV">CV</a></li> </textarea></br>
+ <br>  <textarea disabled>	        <li><a href="/blog">Blog</a></li> </textarea></br>
+<br><textarea disabled>	    </ul> </textarea> </br>
+<br><textarea disabled>	</nav> </textarea></br>
 
 Ενώ για να διαμορφωθεί το συγκεκριμένο μενού και να γίνει ομοιόμορφο με το υπόλοιπο site στο αρχείο stylesheets/stylesheet.css εισήχθησαν οι παρακάτω γραμμές κώδικα (γραμμή 449 έως 469):
-<p>nav a { color: #ffffff;</p>
-  <p>  text-decoration:none;}</p>
+<br>nav a { color: #ffffff;</br>
+  <br> text-decoration:none;}</br>
     
-<p>nav ul, footer ul {</p>
- <p>   font-family:'Architects Daughter', 'Helvetica Neue',  Helvetica, Arial, serif;</p>
-   <p> padding: 0px;</p>
-  <p>  list-style: none;</p>
-  <p>  font-weight: bold;</p>
-  <p>  font-size: 1.5em;</p>
-  <p>  margin-bottom: 20px;}</p>
-<p>nav ul li, footer ul li {</p>
- <p>   display: inline;</p>
- <p>   margin-right: 20px;</p>
- <p>   margin-bottom: 20px;</p>
-    <p>color: #ffffff;</p>
-   <p> text-decoration:none}</p>
+<br>nav ul, footer ul {</br>
+ <br>   font-family:'Architects Daughter', 'Helvetica Neue',  Helvetica, Arial, serif;</br>
+   <br> padding: 0px;</br>
+  <br> list-style: none;</br>
+<br> font-weight: bold;</br>
+  <br>  font-size: 1.5em;</br>
+ <br>  margin-bottom: 20px;}</br>
+<br>nav ul li, footer ul li {</br>
+<br>   display: inline;</br>
+ <br>  margin-right: 20px;</br>
+<br>  margin-bottom: 20px;</br>
+    <br>color: #ffffff;</br>
+   <br> text-decoration:none}</br>
    
 Χρησιμοποιώντας το jekyll
 ---------------------------------------------------------
