@@ -30,7 +30,7 @@
 	        		<li><a href="/CV">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
-	</nav> 
+	</nav> -->
 
 
 
