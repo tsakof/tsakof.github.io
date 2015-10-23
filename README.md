@@ -36,7 +36,7 @@
 <br><textarea disabled>	</ul> </textarea> </br>
 <textarea disabled>	</nav> </textarea>
 
-Ενώ για να διαμορφωθεί το συγκεκριμένο μενού και να γίνει ομοιόμορφο με το υπόλοιπο site στο αρχείο stylesheets/stylesheet.css εισήχθησαν οι παρακάτω γραμμές κώδικα (γραμμή 449 έως 469):
+Ενώ για να διαμορφωθεί το συγκεκριμένο μενού και να γίνει ομοιόμορφο με το υπόλοιπο site, στο αρχείο stylesheets/stylesheet.css εισήχθησαν οι παρακάτω γραμμές κώδικα (γραμμή 449 έως 469):
     <br> nav a { color: #ffffff;</br>
    text-decoration:none;}
         <br> nav ul, footer ul {</br>
