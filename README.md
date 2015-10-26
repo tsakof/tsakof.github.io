@@ -24,14 +24,14 @@
 στη συνέχεια μέσα απ' τις επιλογές settings/automatic page generator ξεκίνησε η διαδικασία δημιουργίας του site βάση του έτοιμου Layout "Architect".</p>
 <p>Ο page generator παρήγαγε αυτόματα στο repository τα απαραίτητα html,css και Javascript αρχεία ούτως ώστε να δημιουργηθεί και να είναι έτοιμη μια αρχική μορφή της ιστοσελίδας.
 Το συγκεκριμένο layout όμως περιελάμβανε μόνο μία σελίδα περιορίζοντας τις δυνατότητες του site.
-Έτσι για τη δημιουργία επιπλέον σελίδων δημιουργήθηκαν 3 επιπλέον φάκελοι: About, CV, Blog που ο καθένας περιελάμβανε κι ένα index.html αρχείο.</p>
+Έτσι για τη δημιουργία επιπλέον σελίδων δημιουργήθηκαν 3 επιπλέον φάκελοι: About me, About GitHub, Blog που ο καθένας περιελάμβανε κι ένα index.html αρχείο.</p>
 Για να είναι δυνατή η πρόσβαση σ' αυτές τις σελίδες μέσα απ' την αρχική σελίδα του site ήταν απαραίτητο να δημιουργηθούν κάποια links που θα παρέπεμπαν σ' αυτές .
-Έτσι φτιάχτηκαν 4 nav buttons στη κεφαλίδα της αρχικής σελίδας του site: home, about, cv, blog, εισάγοντας στο header του tsakof.github.io/index.html τις εξής γραμμές (25 έως 32):
+Έτσι φτιάχτηκαν 4 nav buttons στη κεφαλίδα της αρχικής σελίδας του site: home, about me, About GitHub, blog, εισάγοντας στο header του tsakof.github.io/index.html τις εξής γραμμές (25 έως 32):
        <br> <textarea disabled> <nav> </textarea> </br>
 	<textarea disabled>  <ul> </textarea>
  <br>  <textarea disabled>   <li><a href="/">Home</a></li> </textarea></br>
-  <textarea disabled>	 <li><a href="/about">About</a></li> </textarea>
-<br>  <textarea disabled>	 <li><a href="/CV">CV</a></li> </textarea></br>
+  <textarea disabled>	 <li><a href="/about">About me</a></li> </textarea>
+<br>  <textarea disabled>	 <li><a href="/CV">About GiHub</a></li> </textarea></br>
    <textarea disabled>	 <li><a href="/blog">Blog</a></li> </textarea>
 <br><textarea disabled>	</ul> </textarea> </br>
 <textarea disabled>	</nav> </textarea>
